@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import java.util.PriorityQueue;
 import java.util.stream.Stream;
 
-class PriorityQueueTest {
+class MyPriorityQueueTest {
     private static Stream<Arguments> correctResult() {
         return Stream.of(
                 Arguments.of(new int[]{5, 2, 6, 9}, new int[]{2, 5, 6, 8}),
