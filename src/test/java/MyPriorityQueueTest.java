@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 class MyPriorityQueueTest {
     private static Stream<Arguments> correctResult() {
         return Stream.of(
-                Arguments.of(new int[]{5, 2, 6, 9}, new int[]{2, 5, 6, 8}),
+                Arguments.of(new int[]{5, 2, 6, 9}, new int[]{2, 5, 6, 9}),
                 Arguments.of(new int[]{4, 3, 2, 1}, new int[]{1, 2, 3, 4}),
                 Arguments.of(new int[]{7, 0, 1, 8}, new int[]{0, 1, 7, 8}),
                 Arguments.of(new int[]{9, 11, 7, 10}, new int[]{7, 9, 10, 11}),
